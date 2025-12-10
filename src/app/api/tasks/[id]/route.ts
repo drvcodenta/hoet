@@ -77,7 +77,7 @@ export async function PUT(
       return NextResponse.json(
         {
           message: "Validation failed",
-          errors: error.errors.map((e) => ({
+          errors: error.issues.map((e) => ({
             field: e.path.join("."),
             message: e.message,
           })),
