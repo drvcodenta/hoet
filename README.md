@@ -248,12 +248,6 @@ npm run build
 
 This project is licensed under the MIT License.
 
-## Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourusername)
-
 ## Acknowledgments
 
 - Next.js Team for the amazing framework
