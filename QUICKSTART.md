@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-## 🚀 5-Minute Setup
+## 5-Minute Setup
 
 ### Step 1: Clone & Install (2 min)
 ```bash
@@ -35,7 +35,7 @@ npm run dev
 # Visit http://localhost:3000
 ```
 
-## 🎯 Common Tasks
+## Common Tasks
 
 ### Create a Task
 1. Click "New Task" button
@@ -53,7 +53,7 @@ npm run dev
 2. Click "Delete" button
 3. Confirm deletion
 
-## 📝 API Quick Reference
+## API Quick Reference
 
 ### Get All Tasks
 ```bash
@@ -79,7 +79,7 @@ curl -X PUT http://localhost:3000/api/tasks/1 \
 curl -X DELETE http://localhost:3000/api/tasks/1
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Database Won't Connect
 ```bash
@@ -109,7 +109,7 @@ npm run build
 npm run dev
 ```
 
-## 📚 Key Files
+## Key Files
 
 | File | Purpose |
 |------|---------|
@@ -119,7 +119,7 @@ npm run dev
 | `database/db.sql` | Database schema |
 | `.env.local` | Environment config |
 
-## 🎨 Customization
+## Customization
 
 ### Change Footer Info
 Edit `src/components/Footer.tsx`:
@@ -138,7 +138,7 @@ href="https://linkedin.com/in/yourusername"
 ### Change Theme Colors
 Edit `tailwind.config.js` or use Tailwind classes directly.
 
-## 📦 Deployment
+## Deployment
 
 ### Deploy to Vercel (2 min)
 ```bash
@@ -161,7 +161,7 @@ vercel --prod
    - `DB_PORT`
    - `DB_NAME`
 
-## 🧪 Testing Checklist
+## Testing Checklist
 
 - [ ] Create task works
 - [ ] View tasks displays correctly
@@ -174,7 +174,7 @@ vercel --prod
 - [ ] Responsive on mobile
 - [ ] Footer shows your info
 
-## 📖 Additional Resources
+## Additional Resources
 
 - [Full README](./README.md)
 - [Architecture Docs](./ARCHITECTURE.md)
@@ -182,7 +182,7 @@ vercel --prod
 - [Deployment Guide](./DEPLOYMENT.md)
 - [Contributing Guide](./CONTRIBUTING.md)
 
-## ⚡ Pro Tips
+## Pro Tips
 
 1. **Use Docker**: Easiest way to run PostgreSQL
 2. **Keep .env.local**: Never commit to Git
@@ -193,7 +193,7 @@ vercel --prod
 7. **Validate Inputs**: Always validate on server
 8. **Handle Errors**: User-friendly messages
 
-## 🎓 Learning Resources
+## Learning Resources
 
 - [Next.js Docs](https://nextjs.org/docs)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)

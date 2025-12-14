@@ -1,6 +1,6 @@
 # Security Policy
 
-## 🔒 Security Measures
+## Security Measures
 
 This application implements multiple layers of security to protect against common web vulnerabilities.
 

@@ -1,30 +1,30 @@
-# Task Manager - Next.js 15 & PostgreSQL
+# Task Manager - Next.js 16 & PostgreSQL
 
-![Next.js](https://img.shields.io/badge/Next.js-15.2-black)
+![Next.js](https://img.shields.io/badge/Next.js-16.0-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Latest-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-A full-stack, secure, and user-friendly CRUD application built with Next.js 15 and PostgreSQL. This application demonstrates modern web development practices including server-side rendering, data validation, error handling, and responsive design.
+A full-stack, secure, and user-friendly CRUD application built with Next.js 16 and PostgreSQL. This application demonstrates modern web development practices including server-side rendering, data validation, error handling, and responsive design.
 
-## 🚀 Features
+## Features
 
 ### Core Functionality
-- ✅ **Full CRUD Operations** - Create, Read, Update, and Delete tasks
-- ✅ **Data Validation** - Input validation using Zod schemas
-- ✅ **Error Handling** - Comprehensive error handling with user-friendly messages
-- ✅ **Task Management** - Status tracking (Pending, In Progress, Completed)
-- ✅ **Priority Levels** - Low, Medium, and High priority tasks
-- ✅ **Responsive Design** - Mobile-first design using Tailwind CSS
-- ✅ **Real-time Updates** - Instant UI updates with optimistic rendering
+- **Full CRUD Operations** - Create, Read, Update, and Delete tasks
+- **Data Validation** - Input validation using Zod schemas
+- **Error Handling** - Comprehensive error handling with user-friendly messages
+- **Task Management** - Status tracking (Pending, In Progress, Completed)
+- **Priority Levels** - Low, Medium, and High priority tasks
+- **Responsive Design** - Mobile-first design using Tailwind CSS
+- **Real-time Updates** - Instant UI updates with optimistic rendering
 
 ### Technical Features
-- ✅ **TypeScript** - Full type safety across the application
-- ✅ **Server-Side Rendering** - Optimized performance with SSR
-- ✅ **API Routes** - RESTful API endpoints
-- ✅ **Database Indexing** - Optimized PostgreSQL queries
-- ✅ **Input Sanitization** - Protection against SQL injection and XSS
-- ✅ **Environment Validation** - Runtime environment variable validation
+- **TypeScript** - Full type safety across the application
+- **Server-Side Rendering** - Optimized performance with SSR
+- **API Routes** - RESTful API endpoints
+- **Database Indexing** - Optimized PostgreSQL queries
+- **Input Sanitization** - Protection against SQL injection and XSS
+- **Environment Validation** - Runtime environment variable validation
 
 ### Security Considerations
 - **SQL Injection Prevention** - Parameterized queries using pg library
@@ -33,13 +33,13 @@ A full-stack, secure, and user-friendly CRUD application built with Next.js 15 a
 - **Environment Variables** - Secure configuration management
 - **XSS Protection** - React's built-in XSS protection
 
-## 📋 Prerequisites
+## Prerequisites
 
 - **Node.js** 18.x or higher
 - **PostgreSQL** 12.x or higher
 - **npm** or **yarn** package manager
 
-## 🛠️ Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -105,7 +105,7 @@ npm run build
 npm start
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── src/
@@ -133,7 +133,7 @@ npm start
 └── vercel.json                 # Vercel deployment config
 ```
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Tasks
 
@@ -173,7 +173,7 @@ Content-Type: application/json
 }
 ```
 
-## 🎨 UI Components
+## UI Components
 
 - **TaskList** - Grid display of all tasks
 - **TaskCard** - Individual task card with status and priority badges
@@ -181,7 +181,7 @@ Content-Type: application/json
 - **Navbar** - Navigation with branding and quick actions
 - **Footer** - Personal information and social links
 
-## 🚢 Deployment
+## Deployment
 
 See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions.
 
@@ -191,16 +191,16 @@ See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions.
 
 1. Click the button above
 2. Configure environment variables
-3. Deploy!
+3. Deploy
 
-## 🧪 Testing
+## Testing
 
 Run linting:
 ```bash
 npm run lint
 ```
 
-## 🔒 Security Best Practices
+## Security Best Practices
 
 1. **Input Validation**: All inputs are validated using Zod schemas
 2. **SQL Injection Prevention**: Using parameterized queries
@@ -208,7 +208,7 @@ npm run lint
 4. **Error Handling**: Graceful error handling without exposing sensitive information
 5. **Database Indexing**: Optimized queries for better performance
 
-## 📈 Performance Optimizations
+## Performance Optimizations
 
 - **Server-Side Rendering**: Fast initial page loads
 - **Database Indexing**: Indexed columns for faster queries
@@ -216,7 +216,7 @@ npm run lint
 - **Code Splitting**: Automatic code splitting with Next.js
 - **Caching**: Leveraging Next.js caching strategies
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Database Connection Issues
 - Verify PostgreSQL is running
@@ -236,7 +236,7 @@ rm -rf .next
 npm run build
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -244,17 +244,17 @@ npm run build
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License.
 
-## 👤 Author
+## Author
 
 **Your Name**
 - GitHub: [@yourusername](https://github.com/yourusername)
 - LinkedIn: [Your Name](https://linkedin.com/in/yourusername)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Next.js Team for the amazing framework
 - PostgreSQL Community
@@ -263,4 +263,4 @@ This project is licensed under the MIT License.
 
 ---
 
-**Built with ❤️ using Next.js 15 and PostgreSQL**
+Built using Next.js 16 and PostgreSQL

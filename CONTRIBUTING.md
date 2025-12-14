@@ -2,14 +2,14 @@
 
 Thank you for considering contributing to this project! This document outlines the process for contributing.
 
-## 🎯 Code of Conduct
+## Code of Conduct
 
 - Be respectful and inclusive
 - Provide constructive feedback
 - Focus on what is best for the community
 - Show empathy towards other contributors
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18.x or higher
@@ -60,7 +60,7 @@ Thank you for considering contributing to this project! This document outlines t
    npm run dev
    ```
 
-## 📝 How to Contribute
+## How to Contribute
 
 ### Reporting Bugs
 
@@ -134,7 +134,7 @@ Thank you for considering contributing to this project! This document outlines t
      - Screenshots (if UI changes)
      - Checklist completion
 
-## 💻 Code Style Guidelines
+## Code Style Guidelines
 
 ### TypeScript
 - Use TypeScript for all new files
@@ -170,7 +170,7 @@ src/
 - **Validation**: Validate all user inputs
 - **Security**: Never trust user input
 
-## 🧪 Testing
+## Testing
 
 Currently, the project uses manual testing. Future contributions for automated testing are welcome:
 
@@ -178,7 +178,7 @@ Currently, the project uses manual testing. Future contributions for automated t
 - Integration tests
 - E2E tests (Playwright or Cypress)
 
-## 📚 Documentation
+## Documentation
 
 When adding new features:
 - Update README.md if needed
@@ -186,30 +186,30 @@ When adding new features:
 - Update API documentation
 - Add examples for complex features
 
-## 🔍 Code Review Process
+## Code Review Process
 
 1. Maintainers will review your PR
 2. Address any requested changes
 3. Once approved, your PR will be merged
 4. Your contribution will be credited
 
-## 🎉 Recognition
+## Recognition
 
 Contributors will be recognized in:
 - README.md contributors section
 - Release notes
 - Project documentation
 
-## 📞 Getting Help
+## Getting Help
 
 - Create an issue for questions
 - Join our Discord (if available)
 - Email: your-email@example.com
 
-## 📄 License
+## License
 
 By contributing, you agree that your contributions will be licensed under the same license as the project (MIT License).
 
 ---
 
-Thank you for contributing! 🙏
+Thank you for contributing!
